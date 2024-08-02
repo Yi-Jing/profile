@@ -5,4 +5,7 @@
     <BasicInfo/>
   </div>
 
+  <div class="right-area absolute top-0 right-0 w-2/3 h-full flex flex-col justify-center items-center">
+    <Experience/>
+  </div>
 </div>
