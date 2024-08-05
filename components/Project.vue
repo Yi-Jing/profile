@@ -1,6 +1,6 @@
 <template>
   <div class="h-[360px] w-[652px] px-6">
-    <div class="text-sm text-stone-500 text-left mb-2 w-full">
+    <div v-click="1" class="text-sm text-stone-500 text-left mb-2 w-full">
       <span class="mr-4">專案介紹</span>
     </div>
   
@@ -105,8 +105,8 @@ const isShow = (index) => {
 }
 
 const linkIcon = ref({
-  normal: 'https://cdn-icons-png.flaticon.com/512/7046/7046086.png',
-  hover: 'https://cdn-icons-png.flaticon.com/512/282/282100.png'
+  normal: '/images/icons/link.svg',
+  hover: '/images/icons/link-hover.svg'
 })
 const linkTo = (url) => {
   window.open(url)
