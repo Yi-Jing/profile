@@ -1,13 +1,12 @@
 <template>
-  <div class="flex flex-col gap-10 px-6">
+  <div>
     <div
       v-click
       v-for="(skill, index) in skillList"
       :key="skill.name"
       class="min-w-[600px]"
-      :class="{ 'absolute': isHidden(index) }"
     >
-      <template v-if="isShow(index)">
+      <div class="mb-10" v-if="isShow(index)">
         <div class="mb-2">
           <span class="text-xl font-bold mr-2">{{ skill.name }}</span>
         </div>
@@ -20,7 +19,7 @@
             <span class="pt-1 text-xs text-stone-500">{{ skill.tools[index] }}</span>
           </div>
         </div>
-      </template>
+      </div>
     </div>
   </div>
 </template>
@@ -116,25 +115,6 @@ const isShow = (index) => {
       bool = currentClicks.value === '4'
       break
     default:
-      break
-  }
-
-  return bool
-}
-
-const isHidden = (index) => {
-  let bool = false
-
-  switch (currentClicks.value) {
-    case '1':
-    case '2':
-      bool = [2, 3].includes(index)
-      break
-    case '3':
-      bool = [0, 1, 3].includes(index)
-      break
-    case '4':
-      bool = [0, 1, 2].includes(index)
       break
   }
 

@@ -1,11 +1,11 @@
 <template>
   <div class="px-6">
-    <div class="text-sm text-stone-500 mb-4 ml-6">
+    <div v-click="1" class="text-sm text-stone-500 mb-4 ml-6">
       <span class="mr-4">工作經驗</span>
     </div>
 
     <div class="flex flex-col gap-7">
-      <div v-for="experience in experienceList" :key="experience.key" class="experience">
+      <div v-click v-for="experience in experienceList" :key="experience.key" class="experience">
         <div class="dot flex items-center gap-4 font-bold text-xl">{{ experience.role }}</div>
         <div class="line relative pl-6">
           <div class="flex items-center gap-3 pt-1 pb-3">
