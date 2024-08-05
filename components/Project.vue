@@ -37,7 +37,7 @@ const route = useRoute()
 const projects = [
   {
     name: '行銷自動化系統',
-    image: '/images/project-cover/Linx.png',
+    image: new URL('/images/project-cover/Linx.png', import.meta.url),
     content: '促使百貨公司的行銷人員能自動對顧客發送廣告的系統',
     link: 'https://yi-jing.github.io/linx-file/1'
   },
