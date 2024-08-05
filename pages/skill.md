@@ -6,7 +6,7 @@
       <div class="w-28 h-full">
         <img src="https://cdn-icons-png.flaticon.com/512/3439/3439971.png"/>
       </div>
-        <h2 class="text-lg font-bold">{{ title }}</h2>
+        <h2 class="font-bold">{{ title }}</h2>
     </div>
   </div>
 

@@ -1,6 +1,7 @@
 <template>
   <div class="flex flex-col gap-10 px-6">
-    <div v-click
+    <div
+      v-click
       v-for="(skill, index) in skillList"
       :key="skill.name"
       class="min-w-[600px]"
@@ -135,7 +136,6 @@ const isHidden = (index) => {
     case '4':
       bool = [0, 1, 2].includes(index)
       break
-
   }
 
   return bool

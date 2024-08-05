@@ -4,7 +4,7 @@
     <div class="w-32 h-32 my-4">
       <img class="shadow-sm rounded-md" :src="info.avatar"/>
     </div>
-    <h2 class="text-lg font-bold">{{ info.name }}</h2>
+    <h2 class="font-bold">{{ info.name }}</h2>
     <div class="text-xs mt-2">{{ info.skill }}</div>
   </div>
 </template>

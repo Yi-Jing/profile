@@ -20,7 +20,7 @@ src: pages/skill.md
 
 ---
 transition: fade-out
-src: pages/experience.md
+src: pages/achievement.md
 ---
 <style>
 @import "./styles.css";
