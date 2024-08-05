@@ -4,16 +4,16 @@
       <span class="mr-4">工作經驗</span>
     </div>
 
-    <div class="flex flex-col gap-7">
+    <div class="flex flex-col gap-10 w-[600px]">
       <div v-click v-for="experience in experienceList" :key="experience.key" class="experience">
-        <div class="dot flex items-center gap-4 font-bold text-xl">{{ experience.role }}</div>
+        <div class="dot flex items-center gap-4 font-bold text-2xl">{{ experience.role }}</div>
         <div class="line relative pl-6">
           <div class="flex items-center gap-3 pt-1 pb-3">
-            <div class="text-xs">{{ experience.company }}</div>
-            <div class="text-xs">{{ experience.timeInOffice }}</div>
+            <div>{{ experience.company }}</div>
+            <div>{{ experience.timeInOffice }}</div>
           </div>
           <div class="text-sm text-stone-500">
-            <div class="whitespace-pre-line">{{ experience.content }}</div>
+            <!-- <div class="whitespace-pre-line">{{ experience.content }}</div> -->
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@ const experienceList = [
 .line::before {
   @apply absolute -top-3 left-[3px] block content-[''] w-[2px] bg-[#c6ace0];
 
-  height: calc(100% + 55px);
+  height: calc(100% + 65px);
 }
 
 
