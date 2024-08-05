@@ -43,31 +43,31 @@ const projects = [
   },
   {
     name: '高雄智慧走跑',
-    image: '/images/project-cover/kaush.png',
+    image: new URL('/images/project-cover/kaush.png', import.meta.url),
     content: '宣傳高雄市政府舉辦走跑活動的一頁式網站',
     link: 'https://kcg-running.tw/'
   },
   {
     name: '新北災訓 E 點通',
-    image: '/images/project-cover/disterinfo.png',
+    image: new URL('/images/project-cover/disterinfo.png', import.meta.url),
     content: '可即時查看新北市周遭附近災情的 SPA 網站',
     link: 'https://e.ntpc.gov.tw/news-info'
   },
   {
     name: '食在營養',
-    image: '/images/project-cover/nutrition.png',
+    image: new URL('/images/project-cover/nutrition.png', import.meta.url),
     content: '傳達營養師團隊服務的 SSR 網站',
     link: 'https://nutrition.tw/'
   },
   {
     name: 'TSNA 體育新聞團隊',
-    image: '/images/project-cover/tsna.png',
+    image: new URL('/images/project-cover/tsna.png', import.meta.url),
     content: '整理體育新聞的 SSR 網站',
     link: 'https://tsna.com/'
   },
   {
     name: '花食間 手作',
-    image: '/images/project-cover/Hua Shin Jian.png',
+    image: new URL('/images/project-cover/Hua Shin Jian.png', import.meta.url),
     content: '提供美好餐飲的咖啡廳的 SPA 網站',
     link: 'https://objective-haibt-83b3b9.netlify.app/'
   },
@@ -105,8 +105,8 @@ const isShow = (index) => {
 }
 
 const linkIcon = ref({
-  normal: '/images/icons/link.svg',
-  hover: '/images/icons/link-hover.svg'
+  normal: new URL('/images/icons/link.svg', import.meta.url),
+  hover: new URL('/images/icons/link-hover.svg', import.meta.url),
 })
 const linkTo = (url) => {
   window.open(url)

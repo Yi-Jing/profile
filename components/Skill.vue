@@ -49,45 +49,45 @@ const skillList = [
       'yarn'
     ],
     icons: [
-      'https://www.svgrepo.com/show/354528/vue.svg',
-      'https://www.svgrepo.com/show/354521/vitejs.svg',
-      'https://www.svgrepo.com/show/354131/nuxt-icon.svg',
-      'https://upload.wikimedia.org/wikipedia/commons/1/1c/Pinialogo.svg',
-      'https://www.svgrepo.com/show/374012/pug.svg',
-      'https://static-00.iconduck.com/assets.00/react-icon-2048x2048-o8k3ymqa.png',
-      'https://www.svgrepo.com/show/354113/nextjs-icon.svg',
-      'https://www.svgrepo.com/show/333609/tailwind-css.svg',
-      'https://www.svgrepo.com/show/374068/scss.svg',
-      'https://www.svgrepo.com/show/303206/javascript-logo.svg',
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png',
-      'https://cdn.worldvectorlogo.com/logos/axios.svg',
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/2560px-Npm-logo.svg.png',
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaRWKEVUYoBgUOjgsIrQP19cFWeOfTtpllEA4DG0UTGKBKY5trUpvNi9_Mvk96DifYgMY&usqp=CAU'
+      new URL('/images/skills/vue.svg', import.meta.url),
+      new URL('/images/skills/vite.svg', import.meta.url),
+      new URL('/images/skills/nuxt.svg', import.meta.url),
+      new URL('/images/skills/pinia.svg', import.meta.url),
+      new URL('/images/skills/pug.svg', import.meta.url),
+      new URL('/images/skills/react.png', import.meta.url),
+      new URL('/images/skills/next.svg', import.meta.url),
+      new URL('/images/skills/tailwind.svg', import.meta.url),
+      new URL('/images/skills/scss.svg', import.meta.url),
+      new URL('/images/skills/javascript.svg', import.meta.url),
+      new URL('/images/skills/typescript.png', import.meta.url),
+      new URL('/images/skills/axios.svg', import.meta.url),
+      new URL('/images/skills/npm.png', import.meta.url),
+      new URL('/images/skills/yarn.png', import.meta.url),
     ]
   },
   {
     name: '後端開發',
     level: '初學',
     tools: ['PostgreSQL'],
-    icons: ['https://static-00.iconduck.com/assets.00/postgresql-icon-1987x2048-v2fkmdaw.png']
+    icons: [new URL('/images/skills/postgresql.png', import.meta.url)]
   },
   {
     name: '版本控制',
     level: '精通',
     tools: ['Git', 'GitHub', 'GitLab', 'CLI', 'Sourcetree'],
     icons: [
-      'https://avatars.githubusercontent.com/u/18133?s=280&v=4',
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/180px-GitHub_Invertocat_Logo.svg.png',
-      'https://www.cloudservices.store/site/wp-content/uploads/2020/10/logo-extra-whitespace.png',
-      'https://www.freeiconspng.com/thumbs/command-line-icon/command-line-icon-1.png',
-      'https://static-00.iconduck.com/assets.00/sourcetree-icon-407x512-cnpohnjl.png'
+      new URL('/images/skills/git.png', import.meta.url),
+      new URL('/images/skills/github.png', import.meta.url),
+      new URL('/images/skills/gitlab.png', import.meta.url),
+      new URL('/images/skills/CLI.png', import.meta.url),
+      new URL('/images/skills/sourcetree.png', import.meta.url),
     ]
   },
   {
     name: '介面開發',
     level: '初學',
     tools: ['Android Studio'],
-    icons: ['https://static-00.iconduck.com/assets.00/android-studio-icon-486x512-zp9um7zl.png']
+    icons: [new URL('/images/skills/android-studio.png', import.meta.url)]
   },
 ]
 

@@ -6,7 +6,7 @@
         專 案 成 就
       </div>
       <div class="w-24 h-full my-4">
-        <img src="https://cdn-icons-png.flaticon.com/512/718/718110.png" />
+        <img src="/images/icons/project.png" />
       </div>
     </div>
   </div>

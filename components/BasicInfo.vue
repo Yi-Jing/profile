@@ -13,7 +13,7 @@
 
 const info = {
   name: '陳 怡 靜',
-  avatar: '/images/陳怡靜_1 比 1.jpg',
+  avatar: new URL('/images/陳怡靜_1 比 1.jpg', import.meta.url),
   skill: '擅長應用 Vue.js 專注於網頁開發'
 }
 </script>
