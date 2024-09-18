@@ -58,6 +58,7 @@ const skillList = [
       'Axios',
       'npm',
       'yarn',
+      'Angular',
     ],
     icons: [
       new URL('/images/skills/vue.svg', import.meta.url),
@@ -74,6 +75,7 @@ const skillList = [
       new URL('/images/skills/axios.svg', import.meta.url),
       new URL('/images/skills/npm.png', import.meta.url),
       new URL('/images/skills/yarn.png', import.meta.url),
+      new URL('/images/skills/angular.png', import.meta.url),
     ],
   },
   {
