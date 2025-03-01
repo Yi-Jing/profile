@@ -81,11 +81,11 @@ const skillList = [
   {
     name: '後端開發',
     level: '初學',
-    tools: ['Java', 'Spring', 'Spring Boot', 'PostgreSQL'],
+    tools: ['Node.js', 'Express.js', 'MongoDB', 'PostgreSQL'],
     icons: [
-      new URL('/images/skills/java.png', import.meta.url),
-      new URL('/images/skills/spring.svg', import.meta.url),
-      new URL('/images/skills/spring-boot.webp', import.meta.url),
+      new URL('/images/skills/nodejs.png', import.meta.url),
+      new URL('/images/skills/expressjs.png', import.meta.url),
+      new URL('/images/skills/mongodb.png', import.meta.url),
       new URL('/images/skills/postgresql.png', import.meta.url),
     ],
   },
