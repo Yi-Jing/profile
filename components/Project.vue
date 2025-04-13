@@ -18,6 +18,7 @@
               <div class="flex items-center gap-2 mt-6">
                 <span class="text-xl font-bold">{{ project.name }}</span>
                 <Icon
+                  v-if="project.link"
                   class="mb-[2px]"
                   :path="linkIcon"
                   @click="linkTo(project.link)"
@@ -44,7 +45,7 @@ const projects = [
     name: '智慧代理',
     image: new URL('/images/project-cover/TCoeus.png', import.meta.url),
     content: '提供 AI 聊天機器人協助企業解決營運相關問題',
-    link: '',
+    link: 'https://yi-jing.github.io/tcoeus-file',
   },
   {
     name: '行銷自動化系統',
@@ -68,7 +69,7 @@ const projects = [
     name: '食在營養',
     image: new URL('/images/project-cover/nutrition.png', import.meta.url),
     content: '傳達營養師團隊服務的 SSR 網站',
-    link: 'https://nutrition.tw/',
+    link: '',
   },
   {
     name: 'TSNA 體育新聞團隊',
