@@ -69,7 +69,7 @@ const projects = [
     name: '食在營養',
     image: new URL('/images/project-cover/nutrition.png', import.meta.url),
     content: '傳達營養師團隊服務的 SSR 網站',
-    link: '',
+    link: 'https://youtu.be/ogMeaLwhEbo',
   },
   {
     name: 'TSNA 體育新聞團隊',
